@@ -22,3 +22,22 @@ Dataset used:
 
 IBM Slack Survey Data
 https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/VYPrOu0Vs3I0hKLLjiPGrA/survey-data-with-duplicate.csv
+
+Initial Assessment:
+Total number of rows were 65457.
+The data possessed a lot of issues such as inconsistent data types eg. 'Age' column had text vlaues which were converted to nuneric values, 'Country' column had inconsistent values which were made consistent, some columns had null values which were replaced by their median such as the 'Age' column, duplicate values in 'MainBranch' were analyzed to understand if they were actually duplicates or if they were just shared responses. The compensation column 'ConvertedCompYearly' had one value skewing the result which was removed to get a better understanding of data. This column was also normalized and log transformed to reduce skewness.
+
+Explanatory Data Analysis(EDA):
+
+Finding 1: Most Respondants preferred working Hybrid about 34000 respondants.
+
+Business Recommendation: Tech firm should consider adopting flexible hybrid work policies to attract and retain talent. Combining remote work with in-office collaboration can support employee satisfaction while maintaining teamwork and productivity.
+
+Finding 2: Most Common Education Type
+A Bachelors degree was fouund to be the most common education type among respondants
+
+Business Recommendation:
+The tech consultancy should consider a bachelor's degree as a common educational background when designing recruitment strategies and entry-level hiring requirements.
+
+Finding 3: Top 10 Languages
+Organizations should consider a bachelor's degree as a common educational background when designing recruitment strategies and entry-level hiring requirements.
